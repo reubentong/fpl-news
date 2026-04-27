@@ -926,6 +926,20 @@ function ArticleModal({ article, onClose }) {
   );
 }
 
+function formatPostText(text) {
+  return text.split(/(\#[A-Za-z0-9_]+)/g).map((part, index) => {
+    if (part.startsWith("#")) {
+      return (
+        <strong key={index} style={{ fontWeight: 900, color: "#8b231d" }}>
+          {part}
+        </strong>
+      );
+    }
+
+    return part;
+  });
+}
+
 function SocialCard({ post }) {
   return (
     <div style={{ ...styles.card, marginBottom: 16 }}>
@@ -982,9 +996,9 @@ function SocialCard({ post }) {
             </div>
           </div>
 
-          <div style={{ fontSize: 17, lineHeight: 1.72, color: "#1f2937" }}>
-            {post.post}
-          </div>
+<div style={{ fontSize: 17, lineHeight: 1.72, color: "#1f2937" }}>
+  {formatPostText(post.post)}
+</div>
         </div>
       </div>
 
