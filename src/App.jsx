@@ -1650,7 +1650,7 @@ input::placeholder { color: #9ca3af; }
         style={styles.loginButton}
         onClick={() => handleMemeRedirect("login")}
       >
-        Login
+        Register
       </button>
 
       <button
