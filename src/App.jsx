@@ -24,21 +24,6 @@ The rest, as ever, are technically involved but emotionally irrelevant.`},
 {
   id: 2,
   category: "Investigation",
-  title: "Man Under Scrutiny After Ducklings Take First Flight",
-  image: "/images/duck-conspiracy.png",
-  summary:
-    "A duck rescue has become a welfare storm after newborn birds entered the river via unexpected aviation.",
-  body: `Waterfowl enthusiast Josh Lord is facing scrutiny after a rescued duck’s newly hatched ducklings were introduced to the river in what witnesses are calling “their first flight”.
-
-What began as a kind-hearted rescue has raised serious questions about altitude, technique and whether ducklings should be airborne before they have emotionally prepared for it. Witnesses say the tiny birds were not so much placed into the water as briefly promoted to cabin crew. One observer described the release as “a long-haul flight in duckling terms”, adding that there was “noticeable airtime” before splashdown. Lord insists the operation was gentle and successful, noting that all ducklings landed safely and immediately began swimming.
-
-Critics, however, say the landings had “serious Ryanair energy”: technically successful, but loud, sudden, and not something anyone would choose twice. RSPCA officials have not commented, though imaginary investigators are reviewing footage to determine whether the ducklings were released, launched, or simply introduced to gravity ahead of schedule. The mother duck is believed to be safe, but has reportedly asked why her children’s first trip to the river included a departure gate.
-
-At the time of publication, all ducklings were unharmed, the river had accepted custody, and Lord remained under pressure to confirm whether future releases will be by hand, boat, or budget airline.`
-},
-{
-  id: 3,
-  category: "Investigation",
   title: "Balding Bloke MISSING After Haircut, Katsu and Asahi",
   image: "/images/jb.jpg",
   summary:
@@ -50,6 +35,21 @@ Witnesses say the haircut was “brave”, “efficient” and “good crown-wor
 This is not his first food-related disappearance. Previous records show he has had to go to bed after overcommitting to naan. Search teams are checking sofas, beds, dark rooms and anywhere a freshly trimmed forehead might be reflecting light.
 
 Police are not treating the disappearance as suspicious. They are treating it as friday lunch.`
+},
+{
+  id: 3,
+  category: "Breaking",
+  title: "Man Under Scrutiny After Ducklings Take First Flight",
+  image: "/images/duck-conspiracy.png",
+  summary:
+    "A duck rescue has become a welfare storm after newborn birds entered the river via unexpected aviation.",
+  body: `Waterfowl enthusiast Josh Lord is facing scrutiny after a rescued duck’s newly hatched ducklings were introduced to the river in what witnesses are calling “their first flight”.
+
+What began as a kind-hearted rescue has raised serious questions about altitude, technique and whether ducklings should be airborne before they have emotionally prepared for it. Witnesses say the tiny birds were not so much placed into the water as briefly promoted to cabin crew. One observer described the release as “a long-haul flight in duckling terms”, adding that there was “noticeable airtime” before splashdown. Lord insists the operation was gentle and successful, noting that all ducklings landed safely and immediately began swimming.
+
+Critics, however, say the landings had “serious Ryanair energy”: technically successful, but loud, sudden, and not something anyone would choose twice. RSPCA officials have not commented, though imaginary investigators are reviewing footage to determine whether the ducklings were released, launched, or simply introduced to gravity ahead of schedule. The mother duck is believed to be safe, but has reportedly asked why her children’s first trip to the river included a departure gate.
+
+At the time of publication, all ducklings were unharmed, the river had accepted custody, and Lord remained under pressure to confirm whether future releases will be by hand, boat, or budget airline.`
 },
 {
   id: 4,
@@ -77,7 +77,7 @@ Pack a thin suit, pace yourself, and prepare for a wedding that is mostly a brea
 {
   id: 5,
   category: "History",
-  title: "Picked by You: Top Nazi Leaders that aren't Hitler",
+  title: "Picked by YOU: Top Nazi Leaders that aren't Hitler",
   summary:
     "We've had enough of the blue-haired brigade. Let's bring sexy back!",
   poll: {
@@ -91,6 +91,7 @@ Pack a thin suit, pace yourself, and prepare for a wedding that is mostly a brea
       "Rudolf Hess — Hitler’s deputy until his 1941 flight to Britain",
     ],
   },
+  image: "/images/bruno.png",
   body: `Disclaimer: This poll is presented for historical discussion only. The Nazi regime
   was responsible for genocide, mass persecution and aggressive war. Inclusion in
   this poll does not imply admiration, endorsement, humour or moral equivalence.
@@ -98,7 +99,7 @@ Pack a thin suit, pace yourself, and prepare for a wedding that is mostly a brea
 },
 {
   id: 6,
-  category: "Breaking",
+  category: "Sport",
   title: "Divorced, Beheaded, Won't Survive",
   image: "/images/mgw.png",
   summary:
@@ -128,6 +129,86 @@ Here we go?
 No.
 
 Here we go down.`
+},
+{
+  id: 7,
+  category: "Business",
+  title: "Fake Imports Crackdown",
+  image: "/images/shirts.png",
+  summary:
+    "Fake football shirts face crackdown as officials bravely ignore war, poverty and £90 polyester.",
+  body: `The government has announced a crackdown on fake World Cup shirts, finally tackling the issue keeping Britain awake at night: blokes buying England tops for £14.99. Even some Liverpool fans are panic buying United shirts.
+
+Officials say counterfeit kits damage the game. Fans say charging £90 for a shirt made of cling film and regret damages the soul. The move comes just as the group placed a major order through online Chinese kit-baron Tim. The clobber cartel leader's real name is not known, but is understood to have had a few stock issues, however sources say he is working children overtime to save these football obsessed westerners.
+
+Critics argue there are bigger global issues than fake football shirts. Supporters of the crackdown argue they work for people who sell real ones. At the time of publication, the shirts were cheap, the outrage was real, and Tim remained the people’s quartermaster.`},
+{
+  id: 8,
+  category: "Quiz",
+  title: "Tenaball: Assist Kings",
+  image: "/images/tenable.png",
+  summary:
+    "Can you reveal the Premier League single-season assist kings before Bruno ruins the board?",
+  tenable: {
+    question: "Players with the most assists in a single Premier League season",
+    answers: [
+      {
+        player: "Kevin De Bruyne",
+        assists: 20,
+        season: "2019-20",
+      },
+      {
+        player: "Thierry Henry",
+        assists: 20,
+        season: "2002-03",
+      },
+      {
+        player: "Mohamed Salah",
+        assists: 18,
+        season: "2024-25",
+      },
+      {
+        player: "Mesut Özil",
+        assists: 19,
+        season: "2015-16",
+      },
+      {
+        player: "Cesc Fàbregas",
+        assists: 18,
+        season: "2014-15",
+      },
+      {
+        player: "Frank Lampard",
+        assists: 18,
+        season: "2004-05",
+      },
+      {
+        player: "Bruno Fernandes",
+        assists: 18,
+        season: "2025-26, ongoing",
+      },
+      {
+        player: "Eric Cantona",
+        assists: 16,
+        season: "1992-93",
+      },
+      {
+        player: "Eden Hazard",
+        assists: 15,
+        season: "2012-13",
+      },
+      {
+        player: "Leroy Sané",
+        assists: 15,
+        season: "2018-19",
+      },
+    ],
+  },
+  body: `Welcome to Tenaball, the legally distinct football quiz where memory, agenda and Barclays nostalgia collide.
+
+This week's board asks contestants to reveal the Premier League players with the highest single-season assist totals — creators, stat-padders, corner merchants and men who made finishing look easier than it was. There is added tension this year as Bruno Fernandes threatens to barge further into the conversation, despite looking like a man who argues with parking meters. The answers are already hidden on the board. Click to reveal them one by one, then immediately pretend you knew the lot.
+
+No lifelines. No VAR. No sympathy for anyone who forgets KDB.`
 }
 ];
 
@@ -522,7 +603,228 @@ pollNote: {
   fontSize: 13,
   lineHeight: 1.6,
 },
+clipGrid: {
+  display: "grid",
+  gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+  gap: 18,
+},
+
+clipCard: {
+  background: "rgba(255,255,255,0.78)",
+  borderRadius: 22,
+  padding: 16,
+  boxShadow: "0 12px 32px rgba(0,0,0,0.07)",
+  border: "1px solid rgba(24,24,27,0.08)",
+  backdropFilter: "blur(8px)",
+},
+
+clipFrame: {
+  position: "relative",
+  borderRadius: 18,
+  overflow: "hidden",
+  background: "#111",
+  marginBottom: 14,
+  border: "1px solid #e7e1d7",
+},
+
+clipVideo: {
+  width: "100%",
+  height: 300,
+  objectFit: "contain",
+  display: "block",
+  background: "#111",
+},
+
+clipBadge: {
+  position: "absolute",
+  top: 12,
+  left: 12,
+  background: "linear-gradient(135deg, #84211d, #ab2e26)",
+  color: "white",
+  padding: "6px 10px",
+  borderRadius: 999,
+  fontSize: 11,
+  fontWeight: 900,
+  textTransform: "uppercase",
+  letterSpacing: 1,
+},
+
+clipLength: {
+  position: "absolute",
+  right: 12,
+  bottom: 12,
+  background: "rgba(0,0,0,0.78)",
+  color: "white",
+  padding: "5px 9px",
+  borderRadius: 9,
+  fontSize: 12,
+  fontWeight: 800,
+  border: "1px solid rgba(255,255,255,0.12)",
+},
+
+clipTitle: {
+  fontSize: 24,
+  lineHeight: 1.12,
+  margin: "0 0 8px 0",
+  fontWeight: 900,
+  color: "#18181b",
+},
+
+clipSummary: {
+  color: "#57534e",
+  fontSize: 15,
+  lineHeight: 1.65,
+  margin: 0,
+},
+tenableBox: {
+  margin: "22px 0",
+  padding: 22,
+  borderRadius: 22,
+  background: "linear-gradient(135deg, #18181b 0%, #292524 100%)",
+  border: "1px solid rgba(255,255,255,0.08)",
+  boxShadow: "0 14px 34px rgba(0,0,0,0.16)",
+  color: "white",
+},
+
+tenableKicker: {
+  color: "#d8b68a",
+  fontSize: 12,
+  fontWeight: 900,
+  textTransform: "uppercase",
+  letterSpacing: 1.8,
+  marginBottom: 8,
+},
+
+tenableQuestion: {
+  fontSize: 22,
+  lineHeight: 1.25,
+  fontWeight: 900,
+  margin: "0 0 16px 0",
+},
+
+tenableGrid: {
+  display: "grid",
+  gridTemplateColumns: "1fr 1fr",
+  gap: 10,
+},
+
+tenableTile: {
+  minHeight: 58,
+  padding: "12px 14px",
+  borderRadius: 14,
+  border: "1px solid rgba(255,255,255,0.14)",
+  background: "rgba(255,255,255,0.08)",
+  color: "#fff8ef",
+  fontSize: 15,
+  lineHeight: 1.35,
+  fontWeight: 900,
+  cursor: "pointer",
+  textAlign: "left",
+  display: "flex",
+  alignItems: "center",
+  gap: 10,
+},
+
+tenableTileRevealed: {
+  background: "linear-gradient(135deg, #d8b68a, #f4d19a)",
+  color: "#18181b",
+},
+
+tenableNumber: {
+  display: "inline-flex",
+  alignItems: "center",
+  justifyContent: "center",
+  width: 28,
+  height: 28,
+  borderRadius: "50%",
+  background: "rgba(0,0,0,0.28)",
+  color: "white",
+  fontWeight: 900,
+  flexShrink: 0,
+},
+
+tenableNumberRevealed: {
+  background: "#18181b",
+  color: "#f4d19a",
+},
+
+tenableHiddenText: {
+  letterSpacing: 0.5,
+  opacity: 0.9,
+},
+
+tenableNote: {
+  marginTop: 14,
+  color: "#d6d3d1",
+  fontSize: 13,
+  lineHeight: 1.6,
+},
 };
+
+function TenableBoard({ tenable }) {
+  const [revealed, setRevealed] = useState([]);
+
+  const toggleAnswer = (index) => {
+    setRevealed((current) =>
+      current.includes(index)
+        ? current.filter((item) => item !== index)
+        : [...current, index]
+    );
+  };
+
+  return (
+    <div style={styles.tenableBox}>
+      <div style={styles.tenableKicker}>Football Tenable</div>
+      <h3 style={styles.tenableQuestion}>{tenable.question}</h3>
+
+      <div style={styles.tenableGrid} className="tenable-grid">
+        {tenable.answers.map((answer, index) => {
+          const isRevealed = revealed.includes(index);
+
+          return (
+            <button
+              key={index}
+              style={{
+                ...styles.tenableTile,
+                ...(isRevealed ? styles.tenableTileRevealed : {}),
+              }}
+              onClick={() => toggleAnswer(index)}
+            >
+              <span
+                style={{
+                  ...styles.tenableNumber,
+                  ...(isRevealed ? styles.tenableNumberRevealed : {}),
+                }}
+              >
+                {index + 1}
+              </span>
+
+              <span>
+{isRevealed ? (
+  <span>
+    {answer.player}
+    <span style={{ opacity: 0.75 }}>
+      {" "}
+      — {answer.assists} assists, {answer.season}
+    </span>
+  </span>
+) : (
+  <span style={styles.tenableHiddenText}>
+    {answer.assists} assists — {answer.season}
+  </span>
+)}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+<div style={styles.tenableNote}>
+  Click each tile to reveal the assist king.
+</div>
+    </div>
+  );
+}
 
 function ArticleModal({ article, onClose }) {
   if (!article) return null;
@@ -571,7 +873,7 @@ function ArticleModal({ article, onClose }) {
             </div>
           </div>
         )}
-
+{article.tenable && <TenableBoard tenable={article.tenable} />}
         <div style={styles.modalBody}>{article.body}</div>
       </div>
     </div>
@@ -670,30 +972,71 @@ export default function App() {
     });
   }, [query]);
 
-  const videos = [
+const videos = [
+  {
+    title: "SOFT BODIES, THEY'RE ALRIGHT..",
+    summary:
+      "New footage appears to show tiny birds being introduced to the river with what experts are calling 'unnecessary verticality'.",
+    length: "0:14",
+    tag: "Viral",
+    image: "/images/duck-conspiracy.png",
+    clip: "/videos/duckies.mp4",
+  },
+      {
+    title: "Public curry funding race heating up",
+    summary:
+      "More fines being added as the season closes and the end of season curry draws near.",
+    length: "1:10",
+    tag: "Exclusive",
+    image: "/videos/wheelspin.mp4",
+    clip: "/videos/wheelspin.mp4",
+  },
+  {
+    title: "MAN PLEASURES GUINNESS",
+    summary:
+      "WARNING FOR WOMEN: have a mop at the ready as sigma-male shows phalangic talent",
+    length: "0:04",
+    tag: "Hot today",
+    image: "/images/guinness.mp4",
+    clip: "/videos/guinness.mp4",
+  },
+  {
+    title: "APE AWAY DAYS",
+    summary:
+      "Traveling ape, turned documentor, spots the continental male trying to impress strangers.",
+    length: "0:08",
+    tag: "International",
+    image: "/videos/dancers.mp4",
+    clip: "/videos/dancers.mp4",
+  },
+  {
+    title: "Delight as Spectrum Proves No Barrier",
+    summary:
+      "Autistic `Fin Vs History` fan swaps fedora for Antioch.",
+    length: "0:06",
+    tag: "Warming",
+    image: "/videos/dansnow.mp4",
+    clip: "/videos/dansnow.mp4",
+  },
     {
-      title: "Deadline Night Meltdown",
-      summary: "Live studio coverage as one manager explains a clearly disastrous transfer plan with total confidence.",
-      length: "12:41",
-    },
-    {
-      title: "Captaincy Crisis Tonight",
-      summary: "A primetime debate on whether one decent fixture has been wildly over-interpreted by half the league.",
-      length: "8:16",
-    },
-    {
-      title: "Benchwatch Special",
-      summary: "Full analysis of points left stranded on the bench, complete with dramatic language and hindsight.",
-      length: "10:03",
-    },
-    {
-      title: "Trade Offer Tribunal",
-      summary: "Experts review a proposal described by insiders as shameless, unserious, and spiritually offensive.",
-      length: "6:54",
-    },
-  ];
+    title: "Domino's bike TOPPLES Wyvern",
+    summary:
+      "Half time entertainment in football dropping, despite fans being price-gauged, with strange race around Brisbane Road.",
+    length: "0:29",
+    tag: "Exclusive",
+    image: "/videos/orient.mp4",
+    clip: "/videos/orient.mp4",
+  },
+];
 
   const socialPosts = [
+    {
+      handle: "@xGandVibes",
+      name: "Dudes yapping",
+      post: "How do you tell man to stop sending messages when their team is playing? Forest arent even a big club #PutTheFriesInTheBag",
+      image:
+        "/images/fries.png",
+    },
     {
       handle: "@ZzodegaardstanzZ",
       name: "ArteTAX",
@@ -705,13 +1048,6 @@ export default function App() {
       post: "Does anyone really like their mullet or secretly regret it? Maybe their sister does? #ALABAMA",
       image:
         "/images/mullet.png",
-    },
-    {
-      handle: "@xGandVibes",
-      name: "Dudes yapping",
-      post: "How do you tell man to stop sending messages when their team is playing? Forest arent even a big club #PutTheFriesInTheBag",
-      image:
-        "/images/fries.png",
     },
     {
       handle: "@ApeusMaximus96",
@@ -860,7 +1196,7 @@ const handleMemeRedirect = (type) => {
               <h4 style={styles.cardTitle}>{article.title}</h4>
               <p style={styles.cardSummary}>{article.summary}</p>
               <button style={styles.button} onClick={() => setSelectedArticle(article)}>
-                Click through
+                Read
               </button>
             </article>
           ))}
@@ -921,54 +1257,41 @@ const handleMemeRedirect = (type) => {
     </div>
   );
 
-  const renderVideoTab = () => (
-    <div>
-      <h3 style={styles.sectionTitle}>Video</h3>
-      <div style={styles.grid} className="article-grid">
-        {videos.map((video, index) => (
-          <div key={index} style={styles.card}>
-            <div
-              style={{
-                background: "linear-gradient(135deg, #1a1a1a, #5a211d)",
-                borderRadius: 16,
-                height: 190,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "white",
-                fontSize: 54,
-                fontWeight: 900,
-                marginBottom: 16,
-                position: "relative",
-                boxShadow: "inset 0 -40px 80px rgba(0,0,0,0.18)",
-              }}
-            >
-              ▶
-              <div
-                style={{
-                  position: "absolute",
-                  right: 12,
-                  bottom: 12,
-                  background: "rgba(0,0,0,0.72)",
-                  color: "white",
-                  padding: "5px 9px",
-                  borderRadius: 9,
-                  fontSize: 12,
-                  border: "1px solid rgba(255,255,255,0.08)",
-                }}
-              >
-                {video.length}
-              </div>
-            </div>
-            <div style={styles.category}>Studio feed</div>
-            <h4 style={styles.cardTitle}>{video.title}</h4>
-            <p style={styles.cardSummary}>{video.summary}</p>
-            <button style={styles.button}>Watch now</button>
-          </div>
-        ))}
-      </div>
+const renderVideoTab = () => (
+  <div>
+    <h3 style={styles.sectionTitle}>Viral clips</h3>
+
+    <div style={{ ...styles.sidebarBox, marginBottom: 18 }}>
+      <div style={styles.category}>Now circulating</div>
+      <p style={{ ...styles.cardSummary, marginBottom: 0 }}>
+        Grainy footage, suspicious edits, and clips your legal team would strongly prefer you did not forward.
+      </p>
     </div>
-  );
+
+    <div style={styles.clipGrid} className="clip-grid">
+      {videos.map((video, index) => (
+        <div key={index} style={styles.clipCard}>
+          <div style={styles.clipFrame}>
+            <video
+              src={video.clip}
+              poster={video.image}
+              controls
+              playsInline
+              preload="metadata"
+              style={styles.clipVideo}
+            />
+
+            <div style={styles.clipBadge}>{video.tag}</div>
+            <div style={styles.clipLength}>{video.length}</div>
+          </div>
+
+          <h4 style={styles.clipTitle}>{video.title}</h4>
+          <p style={styles.clipSummary}>{video.summary}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+);
 
   const renderSocialTab = () => (
     <div style={styles.layout} className="main-layout">
@@ -983,10 +1306,10 @@ const handleMemeRedirect = (type) => {
         <div style={styles.sidebarBox}>
           <h3 style={{ ...styles.sectionTitle, fontSize: 20 }}>Trending topics</h3>
           <div style={{ color: "#44403c", lineHeight: 1.95, fontWeight: 700 }}>
-            <div>#CaptaincyFraud</div>
-            <div>#BenchJustice</div>
-            <div>#WildcardPanic</div>
-            <div>#UnderlyingNumbersAgain</div>
+            <div>#GEOvJB</div>
+            <div>#AreMulletsCool</div>
+            <div>#StraitOfHomos</div>
+            <div>#DuckableOffence</div>
           </div>
         </div>
 
@@ -1103,11 +1426,13 @@ const handleMemeRedirect = (type) => {
 @media (max-width: 900px) {
   .main-layout { grid-template-columns: 1fr !important; }
   .article-grid { grid-template-columns: 1fr !important; }
+  .clip-grid { grid-template-columns: 1fr !important; }
   .hero-inner { grid-template-columns: 1fr !important; text-align: center !important; }
   .hero-title { font-size: 32px !important; }
   .tab-row { flex-wrap: wrap; }
   .topbar-inner { flex-direction: column !important; align-items: flex-start !important; }
-        }
+  .tenable-grid { grid-template-columns: 1fr !important; }
+}
         input::placeholder { color: #9ca3af; }
       `}</style>
 
