@@ -243,32 +243,59 @@ const styles = {
     color: "white",
     borderBottom: "1px solid rgba(255,255,255,0.08)",
     boxShadow: "0 10px 30px rgba(0,0,0,0.22)",
-  },
-topbarInner: {
+  },topbarInner: {
   maxWidth: 1260,
   margin: "0 auto",
-  padding: "20px 28px 18px 28px",
+  padding: "16px 28px",
   display: "flex",
   flexDirection: "row",
   justifyContent: "space-between",
   alignItems: "center",
   gap: 18,
 },
-  brand: {
-    fontSize: "38px",
-    fontWeight: 900,
-    letterSpacing: "0.2px",
-    margin: 0,
-    lineHeight: 1.05,
-  },
-  strap: {
-    color: "#d8b68a",
-    fontSize: 11,
-    fontWeight: 800,
-    textTransform: "uppercase",
-    letterSpacing: 1.8,
-    marginBottom: 8,
-  },
+
+brandRow: {
+  display: "flex",
+  alignItems: "center",
+  gap: 18,
+},
+
+logoWrap: {
+  width: 58,
+  height: 58,
+  borderRadius: 14,
+  background: "rgba(255,255,255,0.04)",
+  border: "1px solid rgba(255,255,255,0.12)",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  boxShadow: "0 8px 18px rgba(0,0,0,0.22)",
+  flexShrink: 0,
+},
+
+logoMark: {
+  width: 44,
+  height: 44,
+  objectFit: "contain",
+  display: "block",
+},
+
+brand: {
+  fontSize: "34px",
+  fontWeight: 900,
+  letterSpacing: "-0.6px",
+  margin: 0,
+  lineHeight: 1,
+},
+
+strap: {
+  color: "#d8b68a",
+  fontSize: 10,
+  fontWeight: 800,
+  textTransform: "uppercase",
+  letterSpacing: 3,
+  marginBottom: 7,
+},
   tickerWrap: {
     background: "linear-gradient(90deg, #6f1d1b, #9a2d26)",
     color: "#fff8ef",
@@ -494,10 +521,37 @@ heroImageBadge: {
   letterSpacing: 1,
   border: "1px solid rgba(255,255,255,0.14)",
 },
+brandRow: {
+  display: "flex",
+  alignItems: "center",
+  gap: 14,
+},
+
+logoWrap: {
+  width: 64,
+  height: 64,
+  borderRadius: 16,
+  background: "rgba(255,255,255,0.06)",
+  border: "1px solid rgba(255,255,255,0.12)",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  boxShadow: "0 8px 20px rgba(0,0,0,0.22)",
+  flexShrink: 0,
+},
+
+logoMark: {
+  width: 46,
+  height: 46,
+  objectFit: "contain",
+  display: "block",
+},
+
 brandBlock: {
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
+  minWidth: 0,
 },
 
 headerActions: {
@@ -1164,7 +1218,7 @@ const monthlyAwards = [
 ];
 
 const leadImage = "/images/lead-story.jpg";
-
+const brandLogo = "/images/gremlin-logo.png";
 const handleMemeRedirect = (type) => {
   const memeLinks = {
     login: "https://gatherguests.com/amna-and-reuben",
@@ -1445,6 +1499,22 @@ const renderSportsTab = () => (
           100% { transform: translateX(-100%); }
         }
 @media (max-width: 900px) {
+.brand-logo-wrap {
+  width: 50px !important;
+  height: 50px !important;
+}
+    .brand-row {
+  align-items: center !important;
+}
+
+.brand-title {
+  font-size: 28px !important;
+}
+
+.brand-strap {
+  font-size: 9px !important;
+  letter-spacing: 2px !important;
+}
   .main-layout { 
     grid-template-columns: 1fr !important; 
   }
@@ -1538,16 +1608,28 @@ const renderSportsTab = () => (
   color: #78716c;
   font-weight: 700;
 }
-        input::placeholder { color: #9ca3af; }
+}
+
+input::placeholder { color: #9ca3af; }
       `}</style>
 
       <header>
 <div style={styles.topbar}>
 <div style={styles.topbarInner} className="topbar-inner">
-      <div style={styles.brandBlock}>
-      <div style={styles.strap}>Draft News, twenty-four hours a day</div>
-      <h1 style={styles.brand}>The Daily Gremlin</h1>
+<div style={styles.brandRow} className="brand-row">
+  <div style={styles.logoWrap} className="brand-logo-wrap">
+    <img src={brandLogo} alt="The Daily Gremlin logo" style={styles.logoMark} />
+  </div>
+
+  <div style={styles.brandBlock}>
+    <div style={styles.strap} className="brand-strap">
+      Draft News, twenty-four hours a day
     </div>
+    <h1 style={styles.brand} className="brand-title">
+      The Daily Gremlin
+    </h1>
+  </div>
+</div>
 
     <div style={styles.headerActions}>
       <button
