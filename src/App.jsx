@@ -99,6 +99,18 @@ Pack a thin suit, pace yourself, and prepare for a wedding that is mostly a brea
 },
 {
   id: 6,
+  category: "Business",
+  title: "Fake Imports Crackdown",
+  image: "/images/shirts.png",
+  summary:
+    "Fake football shirts face crackdown as officials bravely ignore war, poverty and £90 polyester.",
+  body: `The government has announced a crackdown on fake World Cup shirts, finally tackling the issue keeping Britain awake at night: blokes buying England tops for £14.99. Even some Liverpool fans are panic buying United shirts.
+
+Officials say counterfeit kits damage the game. Fans say charging £90 for a shirt made of cling film and regret damages the soul. The move comes just as the group placed a major order through online Chinese kit-baron Tim. The clobber cartel leader's real name is not known, but is understood to have had a few stock issues, however sources say he is working children overtime to save these football obsessed westerners.
+
+Critics argue there are bigger global issues than fake football shirts. Supporters of the crackdown argue they work for people who sell real ones. At the time of publication, the shirts were cheap, the outrage was real, and Tim remained the people’s quartermaster.`},
+{
+  id: 7,
   category: "Sport",
   title: "Divorced, Beheaded, Won't Survive",
   image: "/images/mgw.png",
@@ -131,22 +143,10 @@ No.
 Here we go down.`
 },
 {
-  id: 7,
-  category: "Business",
-  title: "Fake Imports Crackdown",
-  image: "/images/shirts.png",
-  summary:
-    "Fake football shirts face crackdown as officials bravely ignore war, poverty and £90 polyester.",
-  body: `The government has announced a crackdown on fake World Cup shirts, finally tackling the issue keeping Britain awake at night: blokes buying England tops for £14.99. Even some Liverpool fans are panic buying United shirts.
-
-Officials say counterfeit kits damage the game. Fans say charging £90 for a shirt made of cling film and regret damages the soul. The move comes just as the group placed a major order through online Chinese kit-baron Tim. The clobber cartel leader's real name is not known, but is understood to have had a few stock issues, however sources say he is working children overtime to save these football obsessed westerners.
-
-Critics argue there are bigger global issues than fake football shirts. Supporters of the crackdown argue they work for people who sell real ones. At the time of publication, the shirts were cheap, the outrage was real, and Tim remained the people’s quartermaster.`},
-{
   id: 8,
   category: "Quiz",
   title: "Tenaball: Assist Kings",
-  image: "/images/tenable.png",
+  image: "/images/bruno2.png",
   summary:
     "Can you reveal the Premier League single-season assist kings before Bruno ruins the board?",
   tenable: {
@@ -206,7 +206,7 @@ Critics argue there are bigger global issues than fake football shirts. Supporte
   },
   body: `Welcome to Tenaball, the legally distinct football quiz where memory, agenda and Barclays nostalgia collide.
 
-This week's board asks contestants to reveal the Premier League players with the highest single-season assist totals — creators, stat-padders, corner merchants and men who made finishing look easier than it was. There is added tension this year as Bruno Fernandes threatens to barge further into the conversation, despite looking like a man who argues with parking meters. The answers are already hidden on the board. Click to reveal them one by one, then immediately pretend you knew the lot.
+This week's board asks contestants to reveal the Premier League players with the highest single-season assist totals — creators, stat-padders, corner merchants and men who made finishing look easier than it was. There is added tension this year as Bruno Fernandes threatens to barge further into the conversation, despite looking like a man who argues with parking meters.  The answers are already hidden on the board. Click to reveal them one by one, then immediately pretend you knew the lot.
 
 No lifelines. No VAR. No sympathy for anyone who forgets KDB.`
 }
@@ -1332,10 +1332,12 @@ const renderVideoTab = () => (
     </div>
   );
 
-  const renderSportsTab = () => (
+const renderSportsTab = () => (
   <div style={styles.layout} className="main-layout">
     <section>
-      <h3 style={styles.sectionTitle}>Last month in the league</h3>
+      <h3 style={styles.sectionTitle} className="league-title">
+        Last month in the league
+      </h3>
 
       <div style={{ ...styles.card, marginBottom: 18 }}>
         <div style={{ ...styles.category, marginBottom: 14 }}>Form table</div>
@@ -1344,9 +1346,10 @@ const renderVideoTab = () => (
           {monthlyForm.map((row, index) => (
             <div
               key={row.manager}
+              className="form-row"
               style={{
                 display: "grid",
-                gridTemplateColumns: "60px 1.2fr 100px 120px 110px",
+                gridTemplateColumns: "60px minmax(0, 1.2fr) 100px 120px 110px",
                 gap: 12,
                 alignItems: "center",
                 padding: "12px 0",
@@ -1354,14 +1357,35 @@ const renderVideoTab = () => (
                   index === monthlyForm.length - 1 ? "none" : "1px solid #ece6dc",
               }}
             >
-              <div style={{ fontWeight: 900, color: "#8b231d" }}>#{index + 1}</div>
-              <div>
-                <div style={{ fontWeight: 900, color: "#18181b" }}>{row.manager}</div>
-                <div style={{ fontSize: 13, color: "#78716c" }}>{row.note}</div>
-              </div>
-              <div style={{ fontWeight: 800 }}>{row.points} pts</div>
-              <div style={{ color: "#44403c", fontWeight: 700 }}>{row.record}</div>
               <div
+                className="form-rank"
+                style={{ fontWeight: 900, color: "#8b231d" }}
+              >
+                #{index + 1}
+              </div>
+
+              <div className="form-manager">
+                <div style={{ fontWeight: 900, color: "#18181b" }}>
+                  {row.manager}
+                </div>
+                <div style={{ fontSize: 13, color: "#78716c" }}>
+                  {row.note}
+                </div>
+              </div>
+
+              <div className="form-points" style={{ fontWeight: 800 }}>
+                {row.points} pts
+              </div>
+
+              <div
+                className="form-record"
+                style={{ color: "#44403c", fontWeight: 700 }}
+              >
+                {row.record}
+              </div>
+
+              <div
+                className="form-trend"
                 style={{
                   fontWeight: 800,
                   color:
@@ -1383,6 +1407,7 @@ const renderVideoTab = () => (
     <aside>
       <div style={styles.sidebarBox}>
         <h3 style={{ ...styles.sectionTitle, fontSize: 20 }}>Monthly awards</h3>
+
         {monthlyAwards.map((award, index) => (
           <div
             key={index}
@@ -1392,8 +1417,12 @@ const renderVideoTab = () => (
                 index === monthlyAwards.length - 1 ? "none" : "1px solid #ece6dc",
             }}
           >
-            <div style={{ ...styles.category, marginBottom: 6 }}>{award.title}</div>
-            <div style={{ fontWeight: 900, marginBottom: 4 }}>{award.winner}</div>
+            <div style={{ ...styles.category, marginBottom: 6 }}>
+              {award.title}
+            </div>
+            <div style={{ fontWeight: 900, marginBottom: 4 }}>
+              {award.winner}
+            </div>
             <div style={{ color: "#57534e", lineHeight: 1.6, fontSize: 14 }}>
               {award.text}
             </div>
@@ -1424,14 +1453,98 @@ const renderVideoTab = () => (
           100% { transform: translateX(-100%); }
         }
 @media (max-width: 900px) {
-  .main-layout { grid-template-columns: 1fr !important; }
-  .article-grid { grid-template-columns: 1fr !important; }
-  .clip-grid { grid-template-columns: 1fr !important; }
-  .hero-inner { grid-template-columns: 1fr !important; text-align: center !important; }
-  .hero-title { font-size: 32px !important; }
-  .tab-row { flex-wrap: wrap; }
-  .topbar-inner { flex-direction: column !important; align-items: flex-start !important; }
-  .tenable-grid { grid-template-columns: 1fr !important; }
+  .main-layout { 
+    grid-template-columns: 1fr !important; 
+  }
+
+  .article-grid { 
+    grid-template-columns: 1fr !important; 
+  }
+
+  .clip-grid { 
+    grid-template-columns: 1fr !important; 
+  }
+
+  .tenable-grid { 
+    grid-template-columns: 1fr !important; 
+  }
+
+  .hero-inner { 
+    grid-template-columns: 1fr !important; 
+    text-align: center !important; 
+  }
+
+  .hero-title { 
+    font-size: 32px !important; 
+  }
+
+  .league-title {
+    font-size: 24px !important;
+    line-height: 1.15 !important;
+  }
+
+  .tab-row { 
+    flex-wrap: wrap; 
+  }
+
+  .topbar-inner { 
+    flex-direction: column !important; 
+    align-items: flex-start !important; 
+  }
+
+.form-row {
+  grid-template-columns: 44px 1fr !important;
+  grid-template-areas:
+    "rank manager"
+    "rank points"
+    "rank record"
+    "rank trend";
+  gap: 6px 12px !important;
+  align-items: start !important;
+  padding: 16px 0 !important;
+}
+
+.form-rank {
+  grid-area: rank;
+  padding-top: 2px;
+}
+
+.form-manager {
+  grid-area: manager;
+  min-width: 0;
+}
+
+.form-points {
+  grid-area: points;
+  font-size: 13px;
+}
+
+.form-record {
+  grid-area: record;
+  font-size: 13px;
+}
+
+.form-trend {
+  grid-area: trend;
+  font-size: 13px;
+}
+
+.form-points::before {
+  content: "Points: ";
+  color: #78716c;
+  font-weight: 700;
+}
+
+.form-record::before {
+  content: "Form: ";
+  color: #78716c;
+  font-weight: 700;
+}
+
+.form-trend::before {
+  content: "Trend: ";
+  color: #78716c;
+  font-weight: 700;
 }
         input::placeholder { color: #9ca3af; }
       `}</style>
