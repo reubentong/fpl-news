@@ -60,17 +60,9 @@ At the time of publication, all ducklings were unharmed, the river had accepted 
     "After a decade together and two years engaged, Britain’s least surprising wedding has been formally upgraded to a wine holiday.",
   body: `After a decade together, two years engaged, and most people already assuming this was happening eventually, Reuben and Amna have finally confirmed the details everyone technically knew were coming.
 
-The wedding will take place at the beautiful Château d’Aix in June 2027 giving guests plenty of time to save the date, book annual leave, and pretend they are going for the ceremony rather than the vinyard nextdoor.
+The wedding will take place at the beautiful Château d’Aix in June 2027 giving guests plenty of time to save the date, book annual leave, and pretend they are going for the ceremony rather than the vinyard nextdoor. In a bold move, the couple are inviting friends and family to celebrate across a long weekend, meaning the event has now officially crossed the line from “wedding” into “holiday with ceremony in the middle”. Sources close to the couple say the mood is romantic, relaxed and dangerously continental, with early expectations of sunshine, good food, better wine and at least one guest asking whether the vineyard “does pints”.
 
-In a bold move, the couple are inviting friends and family to celebrate across a long weekend, meaning the event has now officially crossed the line from “wedding” into “holiday with ceremony in the middle”.
-
-Invites will be sent out soon, which in wedding terms means: yes, it is real, no, you do not need to panic yet, and please stop asking for the link.
-
-Sources close to the couple say the mood is romantic, relaxed and dangerously continental, with early expectations of sunshine, good food, better wine and at least one guest asking whether the vineyard “does pints”.
-
-For Reuben and Amna, it is the next chapter in a story already ten years deep.
-
-For everyone else, it is very simple:
+For Reuben and Amna, it is the next chapter in a story already ten years deep. For everyone else, it is very simple:
 
 Pack a thin suit, pace yourself, and prepare for a wedding that is mostly a break to rural france.`
 },
