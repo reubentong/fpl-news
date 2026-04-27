@@ -39,7 +39,7 @@ At the time of publication, all ducklings were unharmed, the river had accepted 
 {
   id: 3,
   category: "Investigation",
-  title: "Balding Bloke Missing After Haircut, Katsu and Asahi",
+  title: "Balding Bloke MISSING After Haircut, Katsu and Asahi",
   image: "/images/jb.jpg",
   summary:
     "A lunchtime trim became a welfare incident after one man combined limited coverage, Japanese curry and beer.",
